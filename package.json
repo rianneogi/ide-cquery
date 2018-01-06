@@ -10,7 +10,7 @@
     "c",
     "ide",
     "cquery"
-  ], 
+  ],
   "engines": {
     "atom": ">=1.21.0"
   },
