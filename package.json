@@ -87,7 +87,7 @@
   "configSchema": {
     "cqueryPath": {
       "type": "string",
-      "default": "/usr/bin/clangd"
+      "default": ""
     }
   }
 }
