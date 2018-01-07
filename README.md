@@ -1,7 +1,7 @@
-# ide-clangd
+# ide-cquery
 
 Provides C and C++ language support for [Atom][atom] using
-[Cquery language server](cquery)
+[Cquery language server][cquery]
 
 ## About
 
