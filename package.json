@@ -88,6 +88,10 @@
     "cqueryPath": {
       "type": "string",
       "default": "cquery"
+    },
+    "cacheDirectory": {
+      "type": "string",
+      "default": "$projectPath/.vscode/cquery_cached_index"
     }
   }
 }
