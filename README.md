@@ -1,6 +1,6 @@
 # ide-cquery
 
-![Readme Pic](https://raw.githubusercontent.com/rianneogi/ide-cquery/blob/master/readme_pic.PNG)
+![Readme Pic](https://github.com/rianneogi/ide-cquery/blob/master/readme_pic.PNG)
 
 Provides C and C++ language support for [Atom][atom] using
 [Cquery language server][cquery]
