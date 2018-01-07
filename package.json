@@ -11,7 +11,7 @@
     "ide",
     "cquery",
     "lsp",
-    "language-service-provider"
+    "language-service-protocol"
   ],
   "engines": {
     "atom": ">=1.21.0"
