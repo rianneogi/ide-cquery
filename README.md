@@ -32,7 +32,7 @@ Hyperclick
 
 + [Atom 1.21-beta][atom]
 + [atom-ide-ui][atom-ide-ui] atom plugin
-+ Cquery LSP ([See how to install here][cquery_wiki])
++ Cquery Language Server ([See how to install here][cquery_wiki])
 
 [atom]: http://atom.io/beta
 [cquery]: https://github.com/jacobdufault/cquery
