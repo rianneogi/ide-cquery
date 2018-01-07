@@ -7,9 +7,20 @@ Provides C and C++ language support for [Atom][atom] using
 
 ## About
 
+This is an Atom package that connects the [atom-ide-ui][atom-ide-ui] module to the [Cquery language server][cquery].
+
 This plugin is in very early development.
 
 All contributions and feedback are appreciated.
+
+## Features
+Code Completion
+Diagnostics
+Find References
+Code Highlight
+Outline
+Definitions
+Hyperclick
 
 ## Requirements
 
