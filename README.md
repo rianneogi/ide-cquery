@@ -15,11 +15,17 @@ All contributions and feedback are appreciated.
 
 ## Features
 Code Completion
+
 Diagnostics
+
 Find References
+
 Code Highlight
+
 Outline
+
 Definitions
+
 Hyperclick
 
 ## Requirements
