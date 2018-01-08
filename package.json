@@ -94,6 +94,14 @@
     "cacheDirectory": {
       "type": "string",
       "default": "$projectPath/.vscode/cquery_cached_index"
+    },
+    "enableLogging": {
+      "type": "boolean",
+      "default": false
+    },
+    "logFile": {
+      "type": "string",
+      "default": "cquery_log.txt"
     }
   }
 }
