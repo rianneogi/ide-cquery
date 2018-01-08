@@ -28,6 +28,8 @@ Definitions
 
 Hyperclick
 
+Datatips
+
 ## Requirements
 
 + [Atom 1.21-beta][atom]
