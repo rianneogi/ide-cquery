@@ -55,7 +55,7 @@ Each argument in that file is separated by a newline. Lines starting with `#` ar
 + [Atom 1.21-beta][atom]
 + [atom-ide-ui][atom-ide-ui] atom plugin
 + [clang][clang]
-+ Cquery Language Server ([See how to install here][cquery_wiki])
++ cquery Language Server ([See how to install here][cquery_wiki])
 
 [atom]: http://atom.io/beta
 [cquery]: https://github.com/jacobdufault/cquery
