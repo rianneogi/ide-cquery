@@ -89,15 +89,23 @@
   "configSchema": {
     "cqueryPath": {
       "type": "string",
-      "default": "cquery"
+      "default": "cquery",
+      "description": "Path to the cquery executable"
     },
     "cacheDirectory": {
       "type": "string",
-      "default": "$projectPath/.vscode/cquery_cached_index"
+      "default": "$projectPath/.vscode/cquery_cached_index",
+      "description": "The Cquery Cache will be stored in this path"
+    },
+    "enableSnippetInsertion": {
+      "type": "boolean",
+      "default": false,
+      "description": "Autocomplete options show as a snippet"
     },
     "enableLogging": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "description": "Enable logging for debugging ide-cquery"
     },
     "logFile": {
       "type": "string",
