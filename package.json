@@ -17,7 +17,8 @@
     "atom": ">=1.21.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.6.3"
+    "atom-languageclient": "^0.6.3",
+    "shell-quote": "^1.6.1"
   },
   "devDependencies": {
     "snazzy": "^7.0.0",
@@ -115,6 +116,14 @@
     "logFile": {
       "type": "string",
       "default": "cquery_log.txt"
+    },
+    "extraClangArguments": {
+      "type": "array",
+      "default": [],
+      "description": "Additional arguments to pass to clang",
+      "items": {
+        "type": "string"
+      }
     }
   }
 }
