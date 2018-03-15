@@ -17,7 +17,7 @@
     "atom": ">=1.21.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.9.1"
+    "atom-languageclient": "^0.9.3"
   },
   "devDependencies": {
     "snazzy": "^7.0.0",
