@@ -17,7 +17,7 @@
     "atom": ">=1.21.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.6.3"
+    "atom-languageclient": "^0.9.3"
   },
   "devDependencies": {
     "snazzy": "^7.0.0",
@@ -51,6 +51,11 @@
     "datatip": {
       "versions": {
         "0.1.0": "consumeDatatip"
+      }
+    },
+    "signature-help": {
+      "versions": {
+        "0.1.0": "consumeSignatureHelp"
       }
     }
   },
