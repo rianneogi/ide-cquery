@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "atom-languageclient": "^0.9.3",
-    "shell-quote": "^1.6.1
+    "shell-quote": "^1.6.1"
   },
   "devDependencies": {
     "snazzy": "^7.0.0",
