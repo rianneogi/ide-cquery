@@ -1,7 +1,7 @@
 {
   "name": "ide-cquery",
   "main": "./lib/main",
-  "version": "0.5.0",
+  "version": "0.6.1",
   "description": "C++ and C language support for Atom-IDE",
   "repository": "https://github.com/rianneogi/ide-cquery",
   "license": "MIT",
@@ -17,8 +17,8 @@
     "atom": ">=1.21.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.6.3",
-    "shell-quote": "^1.6.1"
+    "atom-languageclient": "^0.9.3",
+    "shell-quote": "^1.6.1
   },
   "devDependencies": {
     "snazzy": "^7.0.0",
@@ -52,6 +52,11 @@
     "datatip": {
       "versions": {
         "0.1.0": "consumeDatatip"
+      }
+    },
+    "signature-help": {
+      "versions": {
+        "0.1.0": "consumeSignatureHelp"
       }
     }
   },
