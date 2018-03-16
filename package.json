@@ -58,6 +58,11 @@
       "versions": {
         "0.1.0": "consumeSignatureHelp"
       }
+    },
+    "atom-ide-busy-signal": {
+      "versions": {
+        "0.1.0": "consumeBusySignal"
+      }
     }
   },
   "providedServices": {
@@ -113,6 +118,14 @@
       "default": true,
       "description": "Autocomplete results show as a snippet"
     },
+    "extraClangArguments": {
+      "type": "array",
+      "default": [],
+      "description": "Additional arguments to pass to clang",
+      "items": {
+        "type": "string"
+      }
+    },
     "enableLogging": {
       "type": "boolean",
       "default": false,
@@ -121,14 +134,6 @@
     "logFile": {
       "type": "string",
       "default": "cquery_log.txt"
-    },
-    "extraClangArguments": {
-      "type": "array",
-      "default": [],
-      "description": "Additional arguments to pass to clang",
-      "items": {
-        "type": "string"
-      }
     }
   }
 }
