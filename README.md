@@ -10,9 +10,9 @@ Provides C and C++ language support for [Atom][atom] using
 
 ## About
 
-This is an Atom package that connects the [atom-ide-ui][atom-ide-ui] module to the [cquery][cquery]. cquery is a highly-scalable, low-latency language server for C/C++/Objective-C.
+This is an Atom package that connects the [atom-ide-ui][atom-ide-ui] package to [cquery][cquery]. cquery is a highly-scalable, low-latency language server for C/C++/Objective-C.
 
-This plugin is in very early development.
+This plugin provides ide-like features for C/C++ and Objective C, including Code Completion, Diagnostics, Find References etc.
 
 All contributions and feedback are appreciated.
 
@@ -25,13 +25,15 @@ Find References
 
 Code Highlight
 
-Outline
-
 Definitions
 
 Hyperclick
 
 Datatips
+
+Signature Helper
+
+Outline
 
 ## Project Setup
 
