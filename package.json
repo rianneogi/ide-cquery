@@ -134,6 +134,21 @@
     "logFile": {
       "type": "string",
       "default": "cquery_log.txt"
+    },
+    "commentParsing": {
+      "type": "integer",
+      "default": 2,
+      "enum": [
+        { "value": 0, "description": "None" },
+        { "value": 1, "description": "Doxygen-Style" },
+        { "value": 2, "description": "All comments" }
+      ],
+      "description": "Instruct cquery how to parse comments"
+    },
+    "detailedCompletionLabel": {
+      "type": "boolean",
+      "default": true,
+      "description": "Enable detailed completion labels (complete signature in autocomplete)."
     }
   }
 }
