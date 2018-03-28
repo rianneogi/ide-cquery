@@ -158,6 +158,11 @@
       "type": "boolean",
       "default": true,
       "description": "Enable detailed completion labels (complete signature in autocomplete)."
+    },
+    "highlightInactiveRegions": {
+      "type": "boolean",
+      "default": true,
+      "description": "Enable highlighting inactive regions as comments. cquery only updates the regions on save"
     }
   }
 }
