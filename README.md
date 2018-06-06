@@ -35,6 +35,10 @@ Signature Helper
 
 Outline
 
+Semantic Highlighting
+
+Inactive Regions
+
 ## Project Setup
 
 To specify include directories and other clang options, a `compile_commands.json` file on your project root directory will suffice.
