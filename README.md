@@ -58,6 +58,78 @@ Each argument in that file is separated by a newline. Lines starting with `#` ar
 # Includes
 -I/work/cquery/third_party
 ```
+## Semantic Highlighting
+
+Semantic Highlighting allows context based coloring of text. For example, member variables can be colored differently than local variables, and other such highlighting that is not provided by the default C++ grammars provided in Atom.
+
+The default semantic hightlighting theme is suited for the One Dark UI. You can change the theme by adding this to your styles.less file:
+
+```
+atom-text-editor {
+  .cquery--disabled {
+    color: hsl(220, 10%, 40%)
+  }
+  .cquery--type {
+    color: hsl(355, 65%, 65%)
+  }
+  .cquery--typeAlias {
+    color: hsl(355, 65%, 65%)
+  }
+  .cquery--enum {
+    color: hsl(355, 65%, 65%)
+  }
+  .cquery--enumConstant {
+    color: hsl(286, 60%, 67%)
+  }
+  .cquery--templateParameter {
+    color: hsl(286, 60%, 67%)
+  }
+  .cquery--freeStandingFunction {
+    color: hsl(220, 14%, 71%)
+  }
+  .cquery--memberFunction {
+    color: hsl(207, 82%, 66%)
+  }
+  .cquery--staticMemberFunction {
+    color: hsl(207, 82%, 66%)
+  }
+  .cquery--freeStandingVariable {
+    color: hsl(220, 14%, 71%)
+  }
+  .cquery--globalVariable {
+    color:  hsl(220, 14%, 71%)
+  }
+  .cquery--memberVariable {
+    color:  hsl( 29, 54%, 61%)
+  }
+  .cquery--staticMemberVariable {
+    color: hsl(355, 65%, 65%)
+  }
+  .cquery--parameter {
+    color: hsl(220,  9%, 55%)
+  }
+  .cquery--namespace {
+    color: hsl( 95, 38%, 62%)
+  }
+  .cquery--macro {
+    color: hsl(286, 60%, 67%)
+  }
+}
+```
+
+Simply change the color attribute of the scope you want. For example, if you want global variables to be colored Red, change
+
+```
+.cquery--globalVariable {
+    color:  hsl(220, 14%, 71%)
+  }
+```
+to
+```
+.cquery--globalVariable {
+    color: #FF0000
+  }
+```
 
 ## Requirements
 
