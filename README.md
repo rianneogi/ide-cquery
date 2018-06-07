@@ -31,13 +31,13 @@ Hyperclick
 
 Datatips
 
+Semantic Highlighting
+
+Fade out Inactive Regions
+
 Signature Helper
 
 Outline
-
-Semantic Highlighting
-
-Inactive Regions
 
 ## Project Setup
 
