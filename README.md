@@ -3,7 +3,7 @@
 [![Package Version](https://img.shields.io/apm/v/ide-cquery.svg)](https://atom.io/packages/ide-cquery)
 [![Package Downloads](https://img.shields.io/apm/dm/ide-cquery.svg)](https://atom.io/packages/ide-cquery)
 
-![Readme Pic](readme_pic.PNG)
+![Readme Pic](readme_pic.png)
 
 Provides C and C++ language support for [Atom][atom] using
 [Cquery language server][cquery]
